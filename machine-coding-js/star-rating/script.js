@@ -38,3 +38,16 @@ function giveRating(n){
     }
     output.innerText="Rating is:" + n +"/5";
 }
+
+
+//code for hover effect to add css colors on star
+// for(let i=0;i<stars.length;i++){
+//     stars[i].addEventListener("mouseenter",()=>{
+//         console.log(stars[i]);
+//         stars[i].className=`star ${classes[i]}`;
+//     })
+//      stars[i].addEventListener("mouseleave",()=>{
+//         console.log(stars[i]);
+//         stars[i].className=`star`;
+//     })
+// }
